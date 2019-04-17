@@ -1,0 +1,107 @@
+#Title {
+    font-size: 3vw;
+    color: black;
+}
+
+.pictHeader {
+    float: left;
+    margin-left: 1%;
+	margin-right: 2%;
+	width: 4vw;
+	height: 3.5vw;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.Picture {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.box {
+	margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#chattext {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.centre {
+    text-align: center;
+}
+
+input {
+    max-width: 2000px;
+}
+
+.flex {
+    border: 1px solid black;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    /*display: flex;*/
+}
+
+.top {
+    height: 90%;
+}
+
+.bottom {
+    height: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container {
+    padding: 0 5px;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textbox {
+    margin-top: 1%;
+    /* display: block;
+    float: left; */
+    height: 33px;
+    width : 3000px;
+}
+
+.button {
+    display: block;
+    float: left;
+    height: 40px;
+    margin: 5px -2px -2px 2px;
+    width: 60px;
+}
+
+.ml-3 {
+    margin-left: 3%;
+}
+
+.mt--2px {
+    margin-top: -2px;
+}
