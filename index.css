@@ -26,11 +26,6 @@
     display: block;
 }
 
-.box {
-	margin-top: 5%;
-    margin-bottom: 5%;
-}
-
 #chattext {
     margin-left: 5%;
     margin-top: 2%;
@@ -39,10 +34,6 @@
 
 .centre {
     text-align: center;
-}
-
-input {
-    max-width: 2000px;
 }
 
 .flex {
@@ -83,11 +74,9 @@ input {
 }
 
 .textbox {
-    margin-top: 1%;
-    /* display: block;
-    float: left; */
+    /* margin-top: %; */
     height: 33px;
-    width : 3000px;
+    width : 550px;
 }
 
 .button {
@@ -104,4 +93,9 @@ input {
 
 .mt--2px {
     margin-top: -2px;
+}
+
+.content-body {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }

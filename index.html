@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <title>Chat With Xyli</title>
     <link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
@@ -26,30 +28,21 @@
         </div>
             <div class="right">
                 <div class="top flex">
-                    <section class="box">
-                        <div id="chattext">
+                    <section class="content-body">
+                        <!-- <div id="chattext">
                             Xyli : Hi! Selamat datang di Chatroom Xyli! Apakah ada yang bisa dibantu?
-                        </div>
+                        </div> -->
                         <div id="chattext">
-                            You : Siapa nama anda?
-                        </div>
-                        <div id="chattext">
-                            Xyli : Nama saya adalah Xyli.
+                            <?php echo $content;?>
                         </div>
                     </section>
                 </div>
                 <div class="bottom flex">
-                    <!-- <section class="ml-3 mt--2px">
-                        
-                            <input type="text" placeholder="Type your message here" name="message" class="textbox">
-                            <input id="submit" type="submit" value="Submit" class="button">
-                        
-                    </section> -->
                     <div class="form-container">
-                        <form action="index.php">
+                        <!-- <form action="doProcess.php"> -->
                             <input type="text" name="answer" class="textbox">
-                            <input type="button" name="Submit" value="Submit">
-                        </form>
+                            <input type="button" name="Submit" value="Submit" class="submit-button">
+                        <!-- </form> -->
                     </div>
                 </div>
             </div>
